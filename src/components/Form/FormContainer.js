@@ -9,13 +9,8 @@ function ChatFormContainer() {
         sendHandler, getHandler, fetchRemoveMessage, removeHandler,
     } = useActions()
     return (
-        <Form
-            notifications={notifications}
-            sendHandler={sendHandler}
-            getHandler={getHandler}
-            fetchRemoveMessage={fetchRemoveMessage}
-            removeHandler={removeHandler}
-        />
+        <Form notifications={notifications} sendHandler={sendHandler} getHandler={getHandler}
+        fetchRemoveMessage={fetchRemoveMessage} removeHandler={removeHandler}/>
     )
 }
 

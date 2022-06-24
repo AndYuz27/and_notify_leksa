@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router';
 import styled from 'styled-components';
 import colors from './colors';
-import Navbar from './components/Navbar/Navbar.jsx'
+import Navbar from './components/Navbar/Navbar'
 import useActions from './hooks/useActions';
 import {Flex} from './Ui'
 
@@ -17,7 +17,7 @@ const AppWrapper = styled.div`
 `
 
 
-const Chat = React.lazy(() => import('./pages/ChatPage/ChatPage.jsx'))
+const Chat = React.lazy(() => import('./pages/ChatPage.js'))
 
 const routes = [
     {

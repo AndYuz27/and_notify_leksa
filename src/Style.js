@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import ActionManFont from './Mulish-Regular.woff'
+import ActionManFont from './juralight.woff'
 export const GlobalStyles = createGlobalStyle`
     * {
         padding: 0;
